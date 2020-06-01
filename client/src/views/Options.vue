@@ -67,6 +67,7 @@ export default {
     save() {
       this.resetSelectedLanguages(this.selectedLanguages);
       this.message = 'Saved changes!';
+      setTimeout(function(){ }, 3000);
     },
     resetMessage() {
       this.message = '';
